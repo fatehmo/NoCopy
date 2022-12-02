@@ -1,0 +1,60 @@
+/*
+Fatehmo
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+table,
+tr,
+th,
+td,
+img,
+dt,
+dd {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+table,
+tr,
+th,
+td,
+img,
+dt,
+dd::selection {
+  background: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+table,
+tr,
+th,
+td,
+img,
+dt,
+dd::-moz-selection {
+  background: none;
+}
